@@ -30,7 +30,8 @@ const RealtimeDatabase = () => {
             });
     }, [currentUser]);
 
-    const handleAddData = () => {
+    const handleAddData = (e) => {
+        e.preventDefault();
         if (!currentUser) {
             console.error('User is not authenticated.');
             return;
