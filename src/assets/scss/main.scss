@@ -1,0 +1,65 @@
+
+@import "bootstrap";
+
+.App {
+    
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .App-header {
+    min-height: 100vh;
+  }
+
+  .content{
+    padding: 25px;
+  }
+
+  .image{
+    img{
+        width: 100px;
+        height: 100px;
+    }
+  }
+
+  .list{
+    display: flex;
+    align-items: center;
+    button{
+        margin-left: 15px;
+    }
+  }
+
+  .img-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.main{
+    height: calc(100vh - 50px);
+    width: 100vw;
+    color: #282c34;
+    background-color: white;
+    margin:0;
+    padding:0;
+}
+  nav{
+    background-color: #282c34;
+    color: white;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button{
+            margin-left: 15px;
+        }
+    }
+  }
+  
